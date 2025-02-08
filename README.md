@@ -1,2 +1,2 @@
 # arduino-play
-Playing with the Arduino Uno
+Arduino exercises and eventual projects will appear here.
