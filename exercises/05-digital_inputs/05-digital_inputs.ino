@@ -11,11 +11,11 @@ void setup()
     Serial.begin(9600);
 
     pinMode(LED_PIN, OUTPUT);
-    pinMode(BUTTON_A_PIN, INPUT_PULLUP);  
-    pinMode(BUTTON_B_PIN, INPUT_PULLUP);  
+    pinMode(BUTTON_A_PIN, INPUT_PULLUP);
+    pinMode(BUTTON_B_PIN, INPUT_PULLUP);
 }
 
-void loop() 
+void loop()
 {
     if (is_pressed(BUTTON_A_PIN) && !led_on) {
         toggle_led();

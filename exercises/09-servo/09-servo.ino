@@ -45,7 +45,7 @@ void loop()
                 break;
         }
     }
-    
+
     switch (motor_state) {
         case MotorState::Ascending:
             if (motor_angle < 180) {
