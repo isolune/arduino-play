@@ -5,7 +5,8 @@ float compute_distance(unsigned int timeout_ms = 50);
 unsigned long cm_to_us(float centimeters);
 float us_to_cm(unsigned long microseconds);
 
-void setup() {
+void setup()
+{
     Serial.begin(9600);
 
     pinMode(ECHO_PIN, INPUT);
@@ -14,7 +15,8 @@ void setup() {
     delay(1000);
 }
 
-void loop() {
+void loop()
+{
     const float distance = compute_distance();
 
     Serial.print(distance);
